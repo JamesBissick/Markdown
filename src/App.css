@@ -1,3 +1,21 @@
 .container {
-  margin-top: 25px;
+  margin-top: 100px;
+}
+
+textarea {
+  border: 2px solid #9370da;
+  border-radius: 8px;
+  padding: 25px;
+  font-size: 1.1em;
+}
+
+.text-field {
+  color: #9370da;
+  font-size: 1.2em;
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  top: -42px;
+  left: 50px;
 }
