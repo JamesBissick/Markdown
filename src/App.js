@@ -41,7 +41,7 @@ class App extends Component {
         <div className="row">
           <div className="col-sm-6">
             <h4 className='text-field'>Markdown Text</h4>
-            <textarea id='text-box' onChange={this.handleChange} value={this.state.text} className='form-control' rows='35' cols='45'/>
+            <textarea id='text-box' onChange={this.handleChange} value={this.state.text} className='form-control' rows='35' cols='45' />
           </div>
           <div className="col-sm-6">
             <div dangerouslySetInnerHTML={this.renderText(this.state.text)} />
